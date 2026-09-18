@@ -44,6 +44,27 @@ def wide_ohlc(panel: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataF
     return close, open_, qv
 
 
+def wide_ohlc_with_valid_mask(
+    panel: pd.DataFrame,
+) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    """Like wide_ohlc, but also returns a boolean mask of *observed* (non-ffill) closes.
+
+    ``price_valid`` is True only where a real close was present before ffill.
+    Bar volume (quote_volume) is a minimum eligibility signal — not proof of
+    liquidity at the assumed fill price.
+    """
+    close_raw = panel.pivot_table(index="ts", columns="symbol", values="close", aggfunc="last")
+    open_raw = panel.pivot_table(index="ts", columns="symbol", values="open", aggfunc="last")
+    qv = panel.pivot_table(index="ts", columns="symbol", values="quote_volume", aggfunc="last")
+    close_raw = close_raw.sort_index()
+    price_valid = close_raw.notna() & (close_raw > 0)
+    close = close_raw.ffill()
+    open_ = open_raw.reindex(close.index).ffill()
+    qv = qv.reindex(close.index).fillna(0.0)
+    price_valid = price_valid.reindex(close.index).fillna(False)
+    return close, open_, qv, price_valid
+
+
 def run_backtest_v1b(
     name: str,
     family: str,
@@ -56,6 +77,8 @@ def run_backtest_v1b(
     rebalance_hours: int = cfg.REBALANCE_HOURS,
     notes: str = "",
     fill_mode: str = "open_next",
+    price_valid: pd.DataFrame | None = None,
+    require_valid_exec: bool = False,
 ) -> BTResult:
     """v1b backtest. See module docstring for diffs vs v1."""
     idx = close.index
@@ -84,6 +107,16 @@ def run_backtest_v1b(
     n, m = close.shape
     cols = close.columns
     W_targ = w_exec_target.to_numpy(dtype=float)
+    exec_ok = None
+    if require_valid_exec:
+        if price_valid is None:
+            pv = pd.DataFrame(True, index=idx, columns=close.columns)
+        else:
+            pv = price_valid.reindex(index=idx, columns=close.columns).fillna(False)
+        # quote_volume > 0 is minimum eligibility, not liquidity proof at assumed price
+        qv_ok = quote_vol.reindex(index=idx, columns=close.columns).fillna(0.0) > 0
+        exec_ok = (pv & qv_ok).to_numpy(dtype=bool)
+        notes = (notes + " | require_valid_exec=1").strip()
     R_cc = rets_cc.to_numpy(dtype=float)
     R_oc = rets_oc.to_numpy(dtype=float)
     O = open_px.to_numpy(dtype=float)
@@ -108,6 +141,11 @@ def run_backtest_v1b(
 
         if exec_bar[i]:
             target = np.nan_to_num(W_targ[i], nan=0.0)
+            # Reject NEW fills (weight increases) on invalid / ffilled bars.
+            if exec_ok is not None:
+                bad = ~exec_ok[i]
+                increase = target > w + 1e-15
+                target = np.where(bad & increase, w, target)
             # Fill prices
             if fill_mode == "open_next":
                 use_open = open_ok[i]

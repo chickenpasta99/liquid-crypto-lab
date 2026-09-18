@@ -1,4 +1,8 @@
-"""Accounting invariants for liquid_crypto_lab engines (paper only)."""
+"""Accounting invariants for liquid_crypto_lab engines (paper only).
+
+REPAIR_V2: several checks call ``run_backtest_v1b`` directly (not a toy ledger).
+See also ``tests/test_repair_v2_liquid.py`` for valid-exec mask coverage.
+"""
 from __future__ import annotations
 
 import numpy as np
