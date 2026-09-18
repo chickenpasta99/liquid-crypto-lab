@@ -1,0 +1,356 @@
+{
+  "n_requested": 42,
+  "n_ok": 62,
+  "stats": [
+    {
+      "symbol": "ZEC-USDT",
+      "rows": 7154,
+      "start": "2025-11-24 12:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 133374451.8600702,
+      "status": "ok"
+    },
+    {
+      "symbol": "ETH-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 373717473.7479051,
+      "status": "ok"
+    },
+    {
+      "symbol": "BTC-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 443385864.41131395,
+      "status": "ok"
+    },
+    {
+      "symbol": "SOL-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 130935507.62471347,
+      "status": "ok"
+    },
+    {
+      "symbol": "HYPE-USDT",
+      "rows": 7632,
+      "start": "2025-11-04 14:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 62221594.0851365,
+      "status": "ok"
+    },
+    {
+      "symbol": "UNI-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 98191791.67725998,
+      "status": "ok"
+    },
+    {
+      "symbol": "XRP-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 72955913.40255004,
+      "status": "ok"
+    },
+    {
+      "symbol": "NEAR-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 50167720.945490405,
+      "status": "ok"
+    },
+    {
+      "symbol": "ARB-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 33414336.813673753,
+      "status": "ok"
+    },
+    {
+      "symbol": "DOGE-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 46501747.83372341,
+      "status": "ok"
+    },
+    {
+      "symbol": "SUI-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 25175074.30394589,
+      "status": "ok"
+    },
+    {
+      "symbol": "BNB-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 14347519.4026445,
+      "status": "ok"
+    },
+    {
+      "symbol": "WLD-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 24064885.0252509,
+      "status": "ok"
+    },
+    {
+      "symbol": "PONS-USDT",
+      "rows": 72,
+      "status": "too_short",
+      "adv_usd_approx": 12751370.226087
+    },
+    {
+      "symbol": "LIT-USDT",
+      "rows": 5903,
+      "start": "2026-01-15 15:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 13796873.8432554,
+      "status": "ok"
+    },
+    {
+      "symbol": "ONDO-USDT",
+      "rows": 18750,
+      "start": "2024-07-29 08:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 14212764.1472412,
+      "status": "ok"
+    },
+    {
+      "symbol": "USDG-USDT",
+      "rows": 11137,
+      "start": "2025-06-11 13:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 12108799.71852767,
+      "status": "ok"
+    },
+    {
+      "symbol": "G-USDT",
+      "rows": 18824,
+      "start": "2024-07-26 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 10853812.3927058,
+      "status": "ok"
+    },
+    {
+      "symbol": "PEPE-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 12173478.969004054,
+      "status": "ok"
+    },
+    {
+      "symbol": "OKB-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 10752568.50564279,
+      "status": "ok"
+    },
+    {
+      "symbol": "DOT-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 10222964.838378925,
+      "status": "ok"
+    },
+    {
+      "symbol": "ADA-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 10202016.51702755,
+      "status": "ok"
+    },
+    {
+      "symbol": "LINK-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 10070668.973371798,
+      "status": "ok"
+    },
+    {
+      "symbol": "XAUT-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 8712441.3739573,
+      "status": "ok"
+    },
+    {
+      "symbol": "XCRCL-USDT",
+      "rows": 1543,
+      "status": "too_short",
+      "adv_usd_approx": 8569914.432329
+    },
+    {
+      "symbol": "FIL-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 9722550.754080331,
+      "status": "ok"
+    },
+    {
+      "symbol": "TRUMP-USDT",
+      "rows": 14577,
+      "start": "2025-01-19 05:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 8605940.5121479,
+      "status": "ok"
+    },
+    {
+      "symbol": "PUMP-USDT",
+      "rows": 10255,
+      "start": "2025-07-18 07:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 8032556.119769,
+      "status": "ok"
+    },
+    {
+      "symbol": "AAVE-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 8438129.277197,
+      "status": "ok"
+    },
+    {
+      "symbol": "BCH-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 8400090.85424,
+      "status": "ok"
+    },
+    {
+      "symbol": "ENA-USDT",
+      "rows": 8791,
+      "start": "2025-09-17 07:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 7574828.5504805,
+      "status": "ok"
+    },
+    {
+      "symbol": "LTC-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 7767250.48277242,
+      "status": "ok"
+    },
+    {
+      "symbol": "STRK-USDT",
+      "rows": 22586,
+      "start": "2024-02-20 12:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 7048495.345068801,
+      "status": "ok"
+    },
+    {
+      "symbol": "XSOXL-USDT",
+      "rows": 1543,
+      "status": "too_short",
+      "adv_usd_approx": 6244683.6096877
+    },
+    {
+      "symbol": "APT-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 7464507.64587421,
+      "status": "ok"
+    },
+    {
+      "symbol": "XSNDK-USDT",
+      "rows": 1544,
+      "status": "too_short",
+      "adv_usd_approx": 5943805.29446836
+    },
+    {
+      "symbol": "XMSTR-USDT",
+      "rows": 1542,
+      "status": "too_short",
+      "adv_usd_approx": 5308519.7786547
+    },
+    {
+      "symbol": "XPL-USDT",
+      "rows": 8593,
+      "start": "2025-09-25 13:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 5099706.4003521,
+      "status": "ok"
+    },
+    {
+      "symbol": "XLM-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 6283708.902563491,
+      "status": "ok"
+    },
+    {
+      "symbol": "TAO-USDT",
+      "rows": 1922,
+      "status": "too_short",
+      "adv_usd_approx": 5065977.795323
+    },
+    {
+      "symbol": "RAY-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 6168885.941477201,
+      "status": "ok"
+    },
+    {
+      "symbol": "AVAX-USDT",
+      "rows": 26000,
+      "start": "2023-10-01 06:00:00+00:00",
+      "end": "2026-09-18 13:00:00+00:00",
+      "adv_usd_approx": 5001739.296582084,
+      "status": "ok"
+    }
+  ],
+  "funding": {
+    "rows": 279,
+    "start": "2026-06-17 16:00:00+00:00",
+    "end": "2026-09-18 08:00:00+00:00"
+  },
+  "probe_ok": [
+    "okx_candles",
+    "kraken_ohlc",
+    "coinbase_candles",
+    "defillama_protocols",
+    "okx_funding"
+  ],
+  "probe_fail": [
+    "binance_klines",
+    "bybit_kline",
+    "coingecko_markets"
+  ],
+  "fetched_at": "2026-09-18T13:21:30.598693+00:00",
+  "granularity": "1H",
+  "primary_source": "okx_public_history_candles",
+  "survivorship_note": "Universe = current top ADV at fetch time (point-in-time snapshot). Not historical reconstitutions \u2014 survivorship bias present; documented.",
+  "topup_fetched": 29,
+  "removed_junk": [
+    "USDG_USDT.parquet",
+    "XAUT_USDT.parquet"
+  ]
+}

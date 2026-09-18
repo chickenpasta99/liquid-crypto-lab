@@ -1,0 +1,254 @@
+{
+  "selected": [
+    {
+      "symbol": "AAVE-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "ADA-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "APT-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "AR-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "ARB-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "AVAX-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "BABY-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "BCH-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "BNB-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "BTC-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "CC-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "CHIP-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "CRV-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "DASH-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "DOGE-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "DOT-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "ENA-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "ETC-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "ETH-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "ETHFI-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "FET-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "FIL-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "HBAR-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "HYPE-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "ICP-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "INJ-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "JUP-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "LINK-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "LIT-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "LSK-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "LTC-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "MINA-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "MON-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "NEAR-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "OKB-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "ONDO-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "ONE-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "OP-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "ORDI-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "PENGU-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "PEPE-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "PI-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "POL-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "PUMP-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "RAY-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "SHIB-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "SOL-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "STRK-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "SUI-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "SUSHI-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "TIA-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "TRUMP-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "TRX-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "UNI-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "VIRTUAL-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "WLD-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "XLM-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "XPL-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "XRP-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "ZAMA-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "ZEC-USDT",
+      "source": "okx_spot"
+    },
+    {
+      "symbol": "ZRO-USDT",
+      "source": "okx_spot"
+    }
+  ],
+  "n": 62,
+  "rule": "top_adv_usdt_excl_stables_equity_tokens"
+}

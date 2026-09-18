@@ -1,0 +1,7 @@
+{
+  "train_end": "2024-06-30",
+  "val_start": "2024-07-01",
+  "val_end": "2024-12-31",
+  "oos_start": "2025-01-01",
+  "rationale": "OKX hourly history from ~2023-07; train through 2024-H1, val 2024-H2, OOS 2025+"
+}

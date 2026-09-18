@@ -1,0 +1,58 @@
+[
+  {
+    "name": "binance_klines",
+    "status": 451,
+    "ok": false,
+    "ms": 296,
+    "snippet": "{   \"code\": 0,   \"msg\": \"Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you be"
+  },
+  {
+    "name": "okx_candles",
+    "status": 200,
+    "ok": true,
+    "ms": 237,
+    "snippet": "{\"code\":\"0\",\"data\":[[\"1789736400000\",\"78050\",\"78086.6\",\"78034.1\",\"78037.8\",\"1.44274702\",\"112600.525479349\",\"112600.525479349\",\"0\"]],\"msg\":\"\"}"
+  },
+  {
+    "name": "bybit_kline",
+    "status": 403,
+    "ok": false,
+    "ms": 304,
+    "snippet": "{     error:The Amazon CloudFront distribution is configured to block access from your country }"
+  },
+  {
+    "name": "kraken_ohlc",
+    "status": 200,
+    "ok": true,
+    "ms": 75,
+    "snippet": "{\"error\":[],\"result\":{\"XXBTZUSD\":[[1787144400,\"64827.0\",\"65150.0\",\"64729.3\",\"64940.7\",\"64953.2\",\"238.91563229\",4119],[1787148000,\"64949.0\",\"65923.6\",\"64949.0\",\"65888.0\",\"65508.2\",\""
+  },
+  {
+    "name": "coinbase_candles",
+    "status": 200,
+    "ok": true,
+    "ms": 55,
+    "snippet": "[[1789736400,77963.95,78015.59,77977.65,77976.68,3.99807027],[1789732800,77913.68,78124.09,77995.71,77977.65,202.69788243],[1789729200,77949.01,78398.31,78221.46,77995.19,175.88510"
+  },
+  {
+    "name": "coingecko_markets",
+    "status": 429,
+    "ok": false,
+    "ms": 41,
+    "snippet": "{\"status\":{\"error_code\":429,\"error_message\":\"You've exceeded the Rate Limit. Please visit https://www.coingecko.com/en/api/pricing to subscribe to our API plans for higher rate lim"
+  },
+  {
+    "name": "defillama_protocols",
+    "status": 200,
+    "ok": true,
+    "ms": 136,
+    "snippet": "[{\"id\":\"2269\",\"name\":\"Binance CEX\",\"address\":null,\"symbol\":\"BNB\",\"url\":\"https://www.binance.com\",\"description\":\"Binance is a cryptocurrency exchange which is the largest exchange i"
+  },
+  {
+    "name": "okx_funding",
+    "status": 200,
+    "ok": true,
+    "ms": 238,
+    "snippet": "{\"code\":\"0\",\"data\":[{\"formulaType\":\"withRate\",\"fundingRate\":\"0.000059534112371\",\"fundingTime\":\"1789718400000\",\"instId\":\"BTC-USDT-SWAP\",\"instType\":\"SWAP\",\"method\":\"current_period\",\""
+  }
+]
